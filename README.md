@@ -1,2 +1,2 @@
 # scrapy
-College assignment
+Assignment on data scraping
