@@ -3,7 +3,6 @@ from ipo_scrapy.items import IpoItem
 
 class IpoSpider(scrapy.Spider):
     name = 'ipo_data'
-    #allowed_domains = ['example.com']
     start_urls = ['https://www.iposcoop.com/current-year-pricings/']
 
     def parse(self, response):
